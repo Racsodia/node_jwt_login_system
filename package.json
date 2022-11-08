@@ -1,0 +1,36 @@
+{
+  "name": "node_jwt_login_system",
+  "version": "1.0.0",
+  "description": "Proyecto básico con implementación de registro y login de usuario con JWT",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Racsodia/node_jwt_login_system.git"
+  },
+  "keywords": [
+    "oauth",
+    "login"
+  ],
+  "author": "Óscar Aguilera Badilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Racsodia/node_jwt_login_system/issues"
+  },
+  "homepage": "https://github.com/Racsodia/node_jwt_login_system#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
